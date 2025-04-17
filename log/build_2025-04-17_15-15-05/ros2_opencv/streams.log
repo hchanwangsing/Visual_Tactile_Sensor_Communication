@@ -1,0 +1,22 @@
+[0.514s] Invoking command in '/home/chan/ws_ros2_camera/src/ros2_opencv': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/chan/ws_ros2_camera/build/ros2_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_opencv build --build-base /home/chan/ws_ros2_camera/build/ros2_opencv/build install --record /home/chan/ws_ros2_camera/build/ros2_opencv/install.log --single-version-externally-managed install_data
+[0.726s] running egg_info
+[0.727s] writing ../../build/ros2_opencv/ros2_opencv.egg-info/PKG-INFO
+[0.727s] writing dependency_links to ../../build/ros2_opencv/ros2_opencv.egg-info/dependency_links.txt
+[0.728s] writing entry points to ../../build/ros2_opencv/ros2_opencv.egg-info/entry_points.txt
+[0.728s] writing requirements to ../../build/ros2_opencv/ros2_opencv.egg-info/requires.txt
+[0.728s] writing top-level names to ../../build/ros2_opencv/ros2_opencv.egg-info/top_level.txt
+[0.729s] reading manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[0.730s] writing manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[0.730s] running build
+[0.730s] running build_py
+[0.730s] running install
+[0.730s] running install_lib
+[0.731s] running install_data
+[0.731s] running install_egg_info
+[0.733s] removing '/home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv-0.0.0-py3.10.egg-info' (and everything under it)
+[0.733s] Copying ../../build/ros2_opencv/ros2_opencv.egg-info to /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv-0.0.0-py3.10.egg-info
+[0.734s] running install_scripts
+[0.752s] Installing publisher_node script to /home/chan/ws_ros2_camera/install/ros2_opencv/lib/ros2_opencv
+[0.752s] Installing subscriber_node script to /home/chan/ws_ros2_camera/install/ros2_opencv/lib/ros2_opencv
+[0.752s] writing list of installed files to '/home/chan/ws_ros2_camera/build/ros2_opencv/install.log'
+[0.769s] Invoked command in '/home/chan/ws_ros2_camera/src/ros2_opencv' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/chan/ws_ros2_camera/build/ros2_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_opencv build --build-base /home/chan/ws_ros2_camera/build/ros2_opencv/build install --record /home/chan/ws_ros2_camera/build/ros2_opencv/install.log --single-version-externally-managed install_data

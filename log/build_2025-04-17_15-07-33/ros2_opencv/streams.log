@@ -1,0 +1,42 @@
+[0.556s] Invoking command in '/home/chan/ws_ros2_camera/src/ros2_opencv': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/chan/ws_ros2_camera/build/ros2_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_opencv build --build-base /home/chan/ws_ros2_camera/build/ros2_opencv/build install --record /home/chan/ws_ros2_camera/build/ros2_opencv/install.log --single-version-externally-managed install_data
+[0.769s] running egg_info
+[0.770s] creating ../../build/ros2_opencv/ros2_opencv.egg-info
+[0.770s] writing ../../build/ros2_opencv/ros2_opencv.egg-info/PKG-INFO
+[0.770s] writing dependency_links to ../../build/ros2_opencv/ros2_opencv.egg-info/dependency_links.txt
+[0.770s] writing entry points to ../../build/ros2_opencv/ros2_opencv.egg-info/entry_points.txt
+[0.770s] writing requirements to ../../build/ros2_opencv/ros2_opencv.egg-info/requires.txt
+[0.770s] writing top-level names to ../../build/ros2_opencv/ros2_opencv.egg-info/top_level.txt
+[0.770s] writing manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[0.772s] reading manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[0.772s] writing manifest file '../../build/ros2_opencv/ros2_opencv.egg-info/SOURCES.txt'
+[0.772s] running build
+[0.772s] running build_py
+[0.773s] creating /home/chan/ws_ros2_camera/build/ros2_opencv/build
+[0.773s] creating /home/chan/ws_ros2_camera/build/ros2_opencv/build/lib
+[0.773s] creating /home/chan/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[0.773s] copying ros2_opencv/cameraPublisher.py -> /home/chan/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[0.783s] copying ros2_opencv/subscriberImage.py -> /home/chan/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[0.784s] copying ros2_opencv/__init__.py -> /home/chan/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv
+[0.784s] running install
+[0.784s] running install_lib
+[0.785s] creating /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[0.785s] copying /home/chan/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv/cameraPublisher.py -> /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[0.785s] copying /home/chan/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv/subscriberImage.py -> /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[0.785s] copying /home/chan/ws_ros2_camera/build/ros2_opencv/build/lib/ros2_opencv/__init__.py -> /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv
+[0.786s] byte-compiling /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/cameraPublisher.py to cameraPublisher.cpython-310.pyc
+[0.786s] byte-compiling /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/subscriberImage.py to subscriberImage.cpython-310.pyc
+[0.786s] Sorry: IndentationError: unindent does not match any outer indentation level (cameraPublisher.py, line 34)
+[0.786s] byte-compiling /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv/__init__.py to __init__.cpython-310.pyc
+[0.786s] running install_data
+[0.787s] creating /home/chan/ws_ros2_camera/install/ros2_opencv/share/ament_index
+[0.787s] creating /home/chan/ws_ros2_camera/install/ros2_opencv/share/ament_index/resource_index
+[0.787s] creating /home/chan/ws_ros2_camera/install/ros2_opencv/share/ament_index/resource_index/packages
+[0.787s] copying resource/ros2_opencv -> /home/chan/ws_ros2_camera/install/ros2_opencv/share/ament_index/resource_index/packages
+[0.787s] copying package.xml -> /home/chan/ws_ros2_camera/install/ros2_opencv/share/ros2_opencv
+[0.787s] running install_egg_info
+[0.788s] Copying ../../build/ros2_opencv/ros2_opencv.egg-info to /home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages/ros2_opencv-0.0.0-py3.10.egg-info
+[0.789s] running install_scripts
+[0.807s] Installing publisher_node script to /home/chan/ws_ros2_camera/install/ros2_opencv/lib/ros2_opencv
+[0.807s] Installing subscriber_node script to /home/chan/ws_ros2_camera/install/ros2_opencv/lib/ros2_opencv
+[0.808s] writing list of installed files to '/home/chan/ws_ros2_camera/build/ros2_opencv/install.log'
+[0.826s] Invoked command in '/home/chan/ws_ros2_camera/src/ros2_opencv' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/chan/ws_ros2_camera/build/ros2_opencv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chan/ws_ros2_camera/install/ros2_opencv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros2_opencv build --build-base /home/chan/ws_ros2_camera/build/ros2_opencv/build install --record /home/chan/ws_ros2_camera/build/ros2_opencv/install.log --single-version-externally-managed install_data
