@@ -33,10 +33,9 @@ class PublisherNodeClass(Node):
                
      def timer_callbackFunction(self):
      #Read the frame of camera 
-          success, frame = self.camera.read()
+          success,frame = self.camera.read()
      #Resize the image 
           frame = cv2.resize(frame, (820,640), interpolation=cv2.INTER_CUBIC)
-
           if success == True:
                #Convert OpenvCV frame to
                ROS2ImageMessage=self.bridgeObject.cv2_to_imgmsg(frame)
@@ -46,20 +45,20 @@ class PublisherNodeClass(Node):
                #Use the logger to display the message on the screen 
                self.get_logger().info('Publishing image number %d' %self.i)
                #Update the img counter 
-          self.i += 1 
+               self.i += 1 
                
 # Main function entry point of the code 
 def main(args=None):
      #Initialize rclpy
      rclpy.init(args=args)
      #Create publisher object 
-     publisherObject=PublisherNodeClass()
+     publisherObject = PublisherNodeClass()
      #Spin the callback timer recursively 
      rclpy.spin(publisherObject)
      #Destroy
      publisherObject.destroy_node()
-     #Shutdown
-rclpy.shutdown()
+     #Shutdown 
+     rclpy.shutdown()
 
 if __name__ == '__main__':
      main()
